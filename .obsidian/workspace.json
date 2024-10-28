@@ -160,8 +160,19 @@
               "icon": "lucide-list",
               "title": "Plan de Bienvenue"
             }
+          },
+          {
+            "id": "83033d408b820c86",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -178,7 +189,7 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "8c9b8ce0e3d30bb5",
+  "active": "8fd698040d3919c2",
   "lastOpenFiles": [
     "Bienvenue.md"
   ]
