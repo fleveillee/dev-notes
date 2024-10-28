@@ -1,14 +1,9 @@
- 
-**Cloud Computing** is On-demand delivery of IT resources over the internet with pay-as-you-go pricing.
-- You only pay for what you use
-
-## EC2 or Elastic Cloud Computing
 - You do not pay for stopped or terminated instances
 - **Hypervisor** is responsible for multi-tenancy and isolation of virtual machines
 - Choose OS: Windows or Linux
 - **Vertical Scaling:** Make instances bigger or smaller when needed
 
-### EC2 Instance Families
+## EC2 Instance Families
 There are different Instance Types grouped under an instance family
 
 - **General Purpose Family**
@@ -30,7 +25,8 @@ There are different Instance Types grouped under an instance family
 - **Storage Optimized Family**
 	- High performance for locally stored data
 
-### EC2 purchase options
+## EC2 purchase options
+
 - **On-Demand**
 - **Savings Plans**
 	- 1 or 3 years commitment on hourly spend to an instance family and Region
@@ -51,7 +47,7 @@ There are different Instance Types grouped under an instance family
 	- physical server dedicated to your use
 	- most expensive option
 
-### EC2 Scaling
+## EC2 Scaling
 - **Auto-scaling Group**
 	- Minimum Instances
 	- Desired Instances (optional, defaults to minimum)
@@ -63,40 +59,3 @@ There are different Instance Types grouped under an instance family
 	- Cost Efficient
 	- Highly available
 	- Automatically scalable
-
-
-**Tightly Coupled Architecture** - Monolithic Application (application component sends requests directly to each other)
-
-**Loosely Coupled Architecture** - Microservices Approach (message queue in between application components)
-
-## Messaging
-
-### SQS - Simple Queue Service
-- Send, Receive, Store messages between software components at any volume
-- The content is called a payload
-
-### SNS - Simple Notification Service
-- Uses Pub/Sub model
-- SNS topic is a channel fro messages to be delivered
-- One on one (user specific), or one to many (ie: advertising)
-
-## Serverless
-
-### AWS Lambda
-- Configure a trigger
-- lambda function runs when triggered
-- Auto-scaling
-- Completes within 15 minutes
-### AWS ECS - Elastic Container Service
-- Can run on EC2 or AWS Fargate for serverless
-- Docker containers
-- Use API calls to launch and stop Docker-enabled applications
-
-### AWS EKS - Elastic Kubernetes Service
-- Can run on EC2 or AWS Fargate for serverless
-- Run Kubernetes on AWS
-
-### AWS Fargate
-- Serverless compute engine for containers
-- No need to provision or manage servers
-- Works with ECS and EKS
