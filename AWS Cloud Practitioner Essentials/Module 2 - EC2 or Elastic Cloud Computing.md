@@ -1,3 +1,4 @@
+# EC2 - Elastic Cloud Computing
 - You do not pay for stopped or terminated instances
 - **Hypervisor** is responsible for multi-tenancy and isolation of virtual machines
 - Choose OS: Windows or Linux

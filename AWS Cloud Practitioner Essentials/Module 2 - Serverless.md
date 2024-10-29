@@ -1,6 +1,7 @@
+# Serverless
 ## AWS Lambda
 - Configure a trigger
-- lambda function runs when triggered
+- Lambda function runs when triggered
 - Auto-scaling
 - Completes within 15 minutes
 ## AWS ECS - Elastic Container Service

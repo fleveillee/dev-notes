@@ -1,3 +1,4 @@
+# Global Infrastructure
 - High availability
 - Fault Tolerance
 

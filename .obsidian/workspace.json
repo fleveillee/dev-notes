@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bienvenue"
+              "title": "README"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bienvenue.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bienvenue"
+              "title": "README"
             }
           },
           {
@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Cloud Practitioner Essentials/Module 4 - Networking.md",
+                "file": "AWS Cloud Practitioner Essentials/AWS Cloud Practitioner Essentials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 4 - Networking"
+              "title": "AWS Cloud Practitioner Essentials"
             }
           }
         ],
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS Cloud Practitioner Essentials/Module 4 - Networking.md",
+                "file": "AWS Cloud Practitioner Essentials/AWS Cloud Practitioner Essentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Module 4 - Networking"
+              "title": "Rétrolien pour AWS Cloud Practitioner Essentials"
             }
           },
           {
@@ -231,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,13 +247,13 @@
   },
   "active": "caaf36c1f09368fd",
   "lastOpenFiles": [
+    "AWS Cloud Practitioner Essentials/Module 2 - EC2 or Elastic Cloud Computing.md",
+    "AWS Cloud Practitioner Essentials/Module 2 - Messaging.md",
+    "AWS Cloud Practitioner Essentials/Module 2 - Serverless.md",
     "AWS Cloud Practitioner Essentials/Module 3 - Global Infrastructure.md",
     "AWS Cloud Practitioner Essentials/Module 4 - Networking.md",
-    "AWS Cloud Practitioner Essentials/Module 2 - Messaging.md",
-    "AWS Cloud Practitioner Essentials/Module 2 - EC2 or Elastic Cloud Computing.md",
-    "AWS Cloud Practitioner Essentials/Module 2 - Serverless.md",
+    "README.md",
     "AWS Cloud Practitioner Essentials/AWS Cloud Practitioner Essentials.md",
-    "Bienvenue.md",
     "Global Infrastructure",
     "AWS Cloud Practitioner Essentials"
   ]
