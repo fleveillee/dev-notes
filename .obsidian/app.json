@@ -2,5 +2,7 @@
   "strictLineBreaks": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "static",
+  "showInlineTitle": false
 }
