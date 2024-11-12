@@ -146,19 +146,18 @@ Now's the time for installing your favorite IDE.
 
 ### The JetBrains Collection
 
-If you are using any JetBrains IDE,
-especially if you use more than one, I recommend using the
-[JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
+If you are using any JetBrains IDE, especially if you use more than one, I recommend using the [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/).
+
+[WebStorm](https://www.jetbrains.com/webstorm/), a personal favourite, is now free for personal use since October 2024. Its diff tool, for file merging, is legendary, and it uses JS Doc to detect type inference so well that you don't need TypeScript anymore.
 
 ### Visual Studio Code
 
-[Visual Studio Code](https://code.visualstudio.com/) is also a safe bet. Although I appreciate Microsoft's turn towards
-open-source and plugin oriented solutions, I still prefer JetBrains' IDEs since they make very reliable plugins. When
-searching for a plugin that they don't provide, you will generally only have one option, and it will be just what you
+[Visual Studio Code](https://code.visualstudio.com/) is also a safe bet. Although I appreciate Microsoft's turn towards open-source and plugin oriented solutions, I still prefer JetBrains' IDEs. 
+
+JetBrains make very reliable plugins. When searching for a plugin that they don't provide, you will generally only have one option, and it will be just what you
 need, therefore avoiding the need to evaluate a plethora of candidates.
 
-It is a better solution for Shopify development, since Liquid syntax support is clearly outdated and neglected in
-JetBrains solutions (as of 2023/2024).
+However, VS Code is a better solution for Shopify development, since Liquid syntax support is clearly outdated and neglected in JetBrains solutions (as of 2023/2024).
 
 ### Zed
 
