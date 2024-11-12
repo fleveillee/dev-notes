@@ -37,7 +37,7 @@ brew install coreutils
 
 ### 4. Install Jovial
 
-[Jovial](https://github.com/zthxxx/jovial) is a nice [Oh My ZSH](https://ohmyz.sh/) theme that keeps things simple. It means that you don't have to dive deep in the Oh My ZSH universe to customize a theme and 500 options and plugins.
+[Jovial](https://github.com/zthxxx/jovial) is a nice [Oh My Zsh](https://ohmyz.sh/) theme that keeps things simple. It means that you don't have to dive deep in the Oh My ZSH universe to customize a theme and 500 options and plugins.
 
 ```shell
 curl -sSL https://github.com/zthxxx/jovial/raw/master/installer.sh | sudo -E zsh -s ${USER:=`whoami`}
@@ -45,17 +45,20 @@ curl -sSL https://github.com/zthxxx/jovial/raw/master/installer.sh | sudo -E zsh
 
 No special font is needed, your typical monospaced font will do. _(Monaco, Menlo, JetBrains Mono)_
 
-| NOTE: also remember to set font line-height to 1.0 for the graphics to display properly.
+| NOTE: Set font line-height to 1.0 for the multiline theme graphics to display properly.
 
-Now is the time to copy the [.zlogin](.zlogin) file to your $HOME folder. This will override the weird squigly faces of
-Jovial that represent a dirty or clean state for git repositories. This also overrides Jovial's `ll` shortcut that is
-not to my liking with gls from `coretuils` (see above).
+#### Jovial & Oh My Zsh Fine-Tuning
+Now is the time to copy the [.zlogin](/assets/.zlogin) file to your $HOME folder. This will remove the weird squiggly faces that Jovial displays on a clean or dirty state for git repository folders. 
+
+This also overrides Jovial's `ll` shortcut that is not to my liking with gls from `coretuils` (see above). The main benefit is that it allows listing of folders before files.
 
 ## Install programming tools
 
 What's your stack? Mine is of many.
 
 ### Node.js
+
+Here I install [nvm](https://github.com/nvm-sh/nvm), an open-source Node Version Manager that is really helpful if you have multiple apps that require a different Node.js version. Should you just want the latest version, you can simply run `brew install node` instead. 
 
 ```shell
 # Node.js packages
@@ -68,7 +71,7 @@ nvm install --lts
 
 ### Install Java through SDKMan
 
-Use [SDKMan](https://sdkman.io/) to manage Java, Kotlin, Groovy, Gradle, Maven & more
+Use [SDKMan](https://sdkman.io/), the # Software Development Kit Manager to help manage Java, [Kotlin](https://kotlinlang.org/), [Apache Groovy](https://www.groovy-lang.org/), [Gradle Build Tool](https://gradle.org/), [Apache Maven](https://maven.apache.org/) and many more related software.
 
 ```shell
 curl -s "https://get.sdkman.io" | bash
@@ -87,43 +90,40 @@ List available Java JDK and install the one you like.
 ```shell
 
 sdk list java
-sdk install java # Append desired specifier from the list command
+sdk install java # Append desired specifier from the list command or leave empty for default
 ```
 
-Repeat for Gradle, Kotlin and as many formulas as needed.
+Repeat for `gradle` , `kotlin` and all the other formulas you need.
 
 ### Install [Python](https://www.python.org/)
 
-I have encountered permission issues with Python's venv — Virtual Environments — using the Homebrew version.
-It is preferable to use the official binaries from Python's [Download Page](https://www.python.org/downloads/)
+I have encountered permission issues with Python's venv — Virtual Environments — using the Homebrew version. I needed to sudo all the time, which is contrary to Homebrew's principles usually. That is why I now prefer to use the official binaries from Python's [Download Page](https://www.python.org/downloads/)
 
 ### PHP
 
-PHP & Composer should be all you need, but [PHPbrew](https://github.com/phpbrew/phpbrew) can help with managing multiple
-PHP versions on your machine.
+[PHP](https://www.php.net/) & [Composer](https://getcomposer.org/) should be all you need, and maybe [PHPbrew](https://github.com/phpbrew/phpbrew) to help with managing multiple PHP versions on your machine.
 
 ```shell
 # PHP packages
 brew install php phpbrew composer
-
 ```
 
 ## ZSH Config files
 
 This repository includes 3 zsh config files
 
-- [.zprofile](.zprofile)
+- [.zprofile](/assets/.zprofile)
     - Loads before .zshrc
     - Contains NVM, SDKMan and Homebrew configs
     - If anything you put in there does not behave as expected, or is not loaded, it might be the victim of an override
       from the theme setup. Therefore, try moving your lines to the .zlogin file
     - Includes a daily auto-update automation for Node.js through nvm, homebrew packages and global npm packages
-- [.zshrc](.zshrc)
+- [.zshrc](/assets/.zshrc)
     - Loads in second place
     - Contains Oh My ZSH with Jovial Theme config
     - Other setups will recommend using this file for config, I prefer to keep Jovial / Oh my ZSH in there on its own
       and use the other two, depending on the use case.
-- [.zlogin](.zlogin)
+- [.zlogin](/assets/.zlogin)
     - Loads after `.zshrc`
     - I use it to override Oh my ZSH Jovial settings that I do not like
 

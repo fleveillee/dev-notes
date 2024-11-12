@@ -4,5 +4,6 @@
   "newFileLocation": "current",
   "useMarkdownLinks": true,
   "attachmentFolderPath": "static",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "showUnsupportedFiles": true
 }
