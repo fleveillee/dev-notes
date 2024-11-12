@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Cloud Practitioner Essentials/AWS Cloud Practitioner Essentials.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Cloud Practitioner Essentials"
+              "title": "README"
             }
           },
           {
@@ -47,8 +47,7 @@
               "title": "Release Notes 1.7.6"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,12 +199,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fdf9ed422672d75d",
+  "active": "f03f0580769d61be",
   "lastOpenFiles": [
-    "AWS Cloud Practitioner Essentials/Module 4 - Networking.md",
-    "README.md",
-    "AWS Cloud Practitioner Essentials/Module 3 - Global Infrastructure.md",
     "AWS Cloud Practitioner Essentials/AWS Cloud Practitioner Essentials.md",
+    "README.md",
+    "AWS Cloud Practitioner Essentials/Module 4 - Networking.md",
+    "AWS Cloud Practitioner Essentials/Module 3 - Global Infrastructure.md",
     "LICENSE",
     "AWS Cloud Practitioner Essentials/Module 2 - Serverless.md",
     "AWS Cloud Practitioner Essentials/Module 2 - Messaging.md",
