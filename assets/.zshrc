@@ -79,6 +79,7 @@ plugins=(
   zsh-syntax-highlighting
   zsh-history-enquirer
   jovial
+  you-should-use
 )
 
 source $ZSH/oh-my-zsh.sh
