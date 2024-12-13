@@ -32,7 +32,7 @@ xcode-select --install
 equivalent of apt-get on Debian/Ubuntu linux distros. Note that the CLI command is brew and not homebrew.
 
 ```shell
-/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ### 3. Generic Shell Utilities
