@@ -14,3 +14,5 @@ This repository is linked to Obsidian and will soon consist of notes from IT cla
   - [Module 2 - Serverless](AWS%20Cloud%20Practitioner%20Essentials/Module%202%20-%20Serverless.md)
   - [Module 3 - Global Infrastructure](AWS%20Cloud%20Practitioner%20Essentials/Module%203%20-%20Global%20Infrastructure.md)
   - [Module 4 - Networking](AWS%20Cloud%20Practitioner%20Essentials/Module%204%20-%20Networking.md)
+
+    
